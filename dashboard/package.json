@@ -1,0 +1,8 @@
+{
+  "name": "ghostnet-dashboard",
+  "version": "1.0.0",
+  "dependencies": {
+    "blessed": "^0.1.8",
+    "blessed-contrib": "^4.11.0"
+  }
+}

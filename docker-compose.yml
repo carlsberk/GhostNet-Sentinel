@@ -1,0 +1,20 @@
+services:
+  watchdog:
+    build: ./watchdog
+    container_name: ghostnet_watchdog
+    restart: always
+    volumes:
+      - ./logs:/app/logs
+    environment:
+      - TARGETS=1.1.1.1
+  
+  dashboard:
+    build: ./dashboard
+    container_name: ghostnet_dashboard
+    restart: always
+    volumes:
+      - ./logs:/app/logs
+    stdin_open: true 
+    tty: true
+    depends_on:
+      - watchdog
