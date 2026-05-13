@@ -52,32 +52,12 @@ In a world where downtime costs reputation, GhostNet keeps you ahead. With its *
 
 ---
 
-## 🚀 Quick Deployment
+## (Installation)
 
-### 1. Requirements
-- Docker & Docker Compose
-- A Discord Webhook URL
-
-### 2. Installation
-```bash
-# Clone the repository
-git clone [https://github.com/codcreater1/GhostNet-Sentinel.git](https://github.com/codcreater1/GhostNet-Sentinel.git)
-
-# Navigate to the core directory
-cd GhostNet-Sentinel
-
-
-
-<img width="1412" height="568" alt="image" src="https://github.com/user-attachments/assets/94727d76-5bfc-4658-9610-8c572a2b08e1" />
-
-
-
-
-
-
-
-
-<img width="1175" height="391" alt="image" src="https://github.com/user-attachments/assets/92593045-493c-4e6c-a101-22638ee76bf1" />
+1. **Depoyu İndirin:**
+   ```bash
+   git clone [https://github.com/carlsberk/GhostNet-Sentinel.git](https://github.com/carlsberk/GhostNet-Sentinel.git)
+   cd GhostNet-Sentinel
 
 
 
