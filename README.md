@@ -52,14 +52,32 @@ In a world where downtime costs reputation, GhostNet keeps you ahead. With its *
 
 ---
 
-## (Installation)
+## 🚀 Installation
 
-1. **Depoyu İndirin:**
+Follow these steps to get the project up and running:
+
+1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/carlsberk/GhostNet-Sentinel.git](https://github.com/carlsberk/GhostNet-Sentinel.git)
+   git clone https://github.com/carlsberk/GhostNet-Sentinel.git
    cd GhostNet-Sentinel
+   ```
 
+2. **Create Logs Directory:**
+   ```bash
+   mkdir logs
+   ```
 
+3. **Run with Docker:**
+   ```bash
+   docker-compose up -d
+   ```
+
+4. **View the Dashboard:**
+   ```bash
+   docker attach ghostnet_dashboard
+   ```
+
+   ---
 
 👨‍💻 Author
 Murat Can Nergiz
